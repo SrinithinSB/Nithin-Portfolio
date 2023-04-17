@@ -39,7 +39,11 @@
                 </div>
                 <div class="about-col-2">
                     <h1 class="subtitle">About Me</h1>
-                    <p>I'm person with creative mind, great passion and with many goals to achieve. I am a dependable person who is great at time management. A key     strength is Logical thinking and problem solving; Working on the problem until it gets solved in order to get the desired results. An enthusiastic person to know about the recent trend in technologies and I’m always keep on updating myself with them.</p>
+                    <p>A person with creative mind, great passion and many goals to achieve. I am a
+                        dependable person who is great at time management. My key strength is Logical
+                        thinking and problem solving; Working on the problem until it gets solved in order
+                        to get the desired results. An enthusiastic person to know about the recent trend in
+                        technologies and I always keep on updating myself with them</p>
 
                     <div class="tab-titles">
                         <p class="tabs active1" onclick="opentab('skills')">Skills</p>
@@ -63,6 +67,35 @@
             </div>
         </div>
     </div>
+
+    <!--certifications-->
+    <div id="about">
+        <div class="container">
+            <h1 class="subtitle">Certification</h1><br>
+            <h2><span>Red Hat® Certified System Administrator</span></h2><br>
+            <div class="row">
+                
+                    <div class="about-col-1">
+                        <img src="images/rhcsabadge.png">
+                    </div>
+                    <div class="about-col-2">
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <p class="redhat">An IT professional who has earned the Red Hat Certified System Administrator
+                            (RHCSA®) is able to perform the core system administration skills required in Red Hat
+                            Enterprise Linux environments. The credential is earned after successfully passing the Red
+                            Hat Certified System Administrator (RHCSA) Exam (EX200).</p>
+                        <a href="https://www.credly.com/badges/33008999-8143-42e2-8ca3-2ee25e9ab938/public_url"
+                            class="btn">Verify</a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
     <!---------Portfolio-------------->
     <div id="portfolio">
         <div class="container">
@@ -72,7 +105,8 @@
                     <img src="images/trolley.jpg">
                     <div class="layer">
                         <h3>Smart Trolley Pro (In progress)</h3>
-                        <p>This trolley will follow the customer throughout the shopping time using Opencv Technology.</p>
+                        <p>This trolley will follow the customer throughout the shopping time using Opencv Technology.
+                        </p>
                         <a href="#"><i class="fa-solid fa-link"></i></a>
                     </div>
                 </div>
@@ -81,7 +115,7 @@
                     <div class="layer">
                         <h3>RFID Attendance System</h3>
                         <p>It Marks The Attendance Of the Student Using RFID And Face ID Technology.</p>
-                        <a href="#"><i class="fa-solid fa-link"></i></a>
+                        <a href="https://ieeexplore.ieee.org/document/9768003"><i class="fa-solid fa-link"></i></a>
                     </div>
                 </div>
                 <div class="work">
@@ -108,9 +142,10 @@
                     <div class="social-icons">
                         <a href="https://instagram.com/srinithinn/"><i class="fa-brands fa-instagram"></i></a>
                         <a href="https://www.facebook.com/nick.nithin.7/"><i class="fa-brands fa-facebook"></i></a>
-                        <a href="https://www.linkedin.com/in/srinithin-s-b-5345a8205/"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://www.linkedin.com/in/srinithin-s-b-5345a8205/"><i
+                                class="fa-brands fa-linkedin"></i></a>
                     </div>
-                    <a href="images/SRINITHIN_S_B_Resume.pdf" download class="btn btn2">Download CV</a>
+                    <a href="images/SRINITHIN_S_B_Resume.pdf" open class="btn btn2">Download CV</a>
                 </div>
                 <div class="contact-right">
                     <form name="submit-to-google-sheet">
@@ -124,7 +159,8 @@
             </div>
         </div>
         <div class="copyright">
-            <p>copyright © <span>Nithin</span>. Made With <i class="fa-brands fa-html5"></i> HTML, <i class="fa-brands fa-css3-alt"></i> CSS and <i class="fa-brands fa-js-square"></i> JS.</p>
+            <p>copyright © <span>Nithin</span>. Made With <i class="fa-brands fa-html5"></i> HTML, <i
+                    class="fa-brands fa-css3-alt"></i> CSS and <i class="fa-brands fa-js-square"></i> JS.</p>
         </div>
     </div>
     <script>
@@ -140,8 +176,6 @@
             }
             event.currentTarget.classList.add("active1");
             document.getElementById(tabname).classList.add("activetab");
-
-
         }
     </script>
     <script>
@@ -156,7 +190,8 @@
         }
     </script>
     <script>
-        const scriptURL = 'https://script.google.com/macros/s/AKfycbxca_lLiOQ07EUh3nT7du88uJG0Y8iorEGt_F2aXNLzGhPYKZzqE7-HmX2S8i5QtmfWIg/exec'
+        const scriptURL =
+            'https://script.google.com/macros/s/AKfycbxca_lLiOQ07EUh3nT7du88uJG0Y8iorEGt_F2aXNLzGhPYKZzqE7-HmX2S8i5QtmfWIg/exec'
         const form = document.forms['submit-to-google-sheet']
         const msg = document.getElementById("msg");
         form.addEventListener('submit', e => {
