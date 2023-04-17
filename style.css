@@ -87,6 +87,11 @@ nav ul li a:hover::after {
     color: #ababab;
 }
 
+#certificate {
+    padding: 80px 0;
+    color: #ababab;
+}
+
 .row {
     display: flex;
     justify-content: space-between;
@@ -163,10 +168,12 @@ nav ul li a:hover::after {
 }
 
 
+
 /*-------portfolio------*/
 
 #portfolio {
     padding: 50px 0;
+
 }
 
 .worklist {
@@ -180,6 +187,7 @@ nav ul li a:hover::after {
     border-radius: 10px;
     position: relative;
     overflow: hidden;
+    cursor: pointer;
 }
 
 .work img {
@@ -335,6 +343,9 @@ form .btn2 {
     color: #08fcac;
 }
 
+h2 span{
+    color: #08fcac;
+}
 
 /*---------css for small screens--------*/
 
