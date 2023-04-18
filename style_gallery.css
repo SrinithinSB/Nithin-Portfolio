@@ -12,6 +12,10 @@ html {
   scroll-behavior: smooth;
 }
 
+img {
+    pointer-events: none;
+}
+
 body {
   background: #080808;
   color: #fff;
