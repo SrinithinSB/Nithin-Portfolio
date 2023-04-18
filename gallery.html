@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Photo Gallery</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="style_gallery.css">
+  <script src="https://kit.fontawesome.com/ab2a3773b7.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <div id="header">
+    <div class="container-main">
+      <nav>
+        <img src="images/logo.png" class="logo">
+        <ul id="sidemenu">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="index.html">About</a></li>
+          <li><a href="index.html">My works</a></li>
+          <li><a href="#gallery">Gallery</a></li>
+          <li><a href="index.html">Contact</a></li>
+
+          <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+        </ul>
+        <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+      </nav>
+      <div class="header-text">
+        <h1>Photo <span>Gallery</span><br></h1>
+      </div>
+    </div>
+  </div>
+
+  <div class="container" id="gallery">
+    <div class="heading">
+      <h3>Photo <span>Gallery</span></h3>
+    </div>
+    <div class="box">
+
+      <div class="dream">
+        <img src="gallery\15.jpg">
+        <img src="gallery\14.jpg">
+        <img src="gallery\13.jpg">
+        <img src="gallery\12.jpg">
+        <img src="gallery\11.jpg">
+
+      </div>
+
+      <div class="dream">
+        <img src="gallery\1.jpg">
+        <img src="gallery\2.jpg">
+        <img src="gallery\3.jpg">
+        <img src="gallery\10.jpg">
+        <img src="gallery\5.jpg">
+
+      </div>
+
+      <div class="dream">
+        <img src="gallery\6.jpg">
+        <img src="gallery\7.jpg">
+        <img src="gallery\8.jpg">
+        <img src="gallery\9.jpg">
+        <img src="gallery\4.jpg">
+
+      </div>
+
+    </div>
+    <div class="btn">
+      <a href="index.html">Go Back to Homepage</a>
+    </div>
+    <div id="contact">
+      <div class="copyright">
+        <p>copyright © <span>Nithin</span>. Made With <i class="fa-brands fa-html5"></i> HTML, <i
+            class="fa-brands fa-css3-alt"></i> CSS and <i class="fa-brands fa-js-square"></i> JS.</p>
+      </div>
+    </div>
+
+  </div>
+
+  <script>
+    var sideMenu = document.getElementById("sidemenu");
+
+    function openmenu() {
+      sideMenu.style.right = "0";
+    }
+
+    function closemenu() {
+      sideMenu.style.right = "-200px";
+    }
+  </script>
+</body>
+
+</html>
