@@ -184,6 +184,9 @@ nav .fa-solid {
 
 
 @media only screen and (max-width: 600px) {
+img {
+    pointer-events: none;
+}
   .container .box {
     flex-direction: column;
   }
